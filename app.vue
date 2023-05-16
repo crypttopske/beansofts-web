@@ -1,12 +1,17 @@
 <template>
   <div class="">
-  <div class="  py-4 bg-img ">
-  <div class="">
-    <Navi/>
-  </div>
-  <Hero/>
-</div>
-<Trust/>
+    <div class="py-4 bg-img">
+      <div class="">
+        <Navi />
+      </div>
+      <Hero />
+    </div>
+    <Trust />
+    <WhatWeDo />
+    <div class="bg-work py-3 pt-5">
+      <HowWeDo />
+      <Pricing />
+    </div>
   </div>
 </template>
 <script>
@@ -16,16 +21,19 @@ export default {
       menuOpen: false,
     };
   },
-};  
-
+};
 </script>
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-.bg-img{
-  background-image: linear-gradient(134deg, #0C0091 0%, #00A87E 100%);;
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+.bg-img {
+  background-image: linear-gradient(134deg, #0c0091 0%, #00a87e 100%);
 }
-*{
-  font-family: 'Poppins', sans-serif;
+.bg-work {
+  background: #0a007e;
+  background-size: cover;
+}
+* {
+  font-family: "Poppins", sans-serif;
 }
 .transition-transform {
   transition-property: transform;
