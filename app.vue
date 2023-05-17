@@ -4,9 +4,11 @@
       <div class="">
         <Navi @scrollToSection="scrollToSection" />
       </div>
-      <Hero />
+      <div id="home">
+        <Hero />
+      </div>
     </div>
-    <Trust />
+    <Trust @scrollToSection="scrollToSection" />
 
     <div class="mt-8">
       <WhatWeDo id="what-we-do" />
