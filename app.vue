@@ -2,18 +2,33 @@
   <div class="">
     <div class="py-4 bg-img">
       <div class="">
-        <Navi />
+        <Navi @scrollToSection="scrollToSection" />
       </div>
       <Hero />
     </div>
     <Trust />
-    <WhatWeDo />
-    <div class="bg-work py-3 pt-5">
-      <HowWeDo />
-      <Pricing />
+
+    <div class="mt-8">
+      <WhatWeDo id="what-we-do" />
     </div>
-    <Team />
+    <div class="mt-8">
+      <div class="bg-work py-3 pt-5">
+        <HowWeDo id="how-we-work" />
+        <Pricing id="pricing" />
+      </div>
+    </div>
+    <div class="mt-8">
+      <Team id="team" />
+    </div>
+    <div class="mt-8">
+      <Contact id="contact" />
+    </div>
+    <div class="mt-8">
+      <Career id="career" />
+    </div>
+
     <About />
+
     <EndFooter />
   </div>
 </template>
@@ -23,6 +38,14 @@ export default {
     return {
       menuOpen: false,
     };
+  },
+  methods: {
+    scrollToSection(sectionId) {
+      const element = document.getElementById(sectionId);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    },
   },
 };
 </script>
