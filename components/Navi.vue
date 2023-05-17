@@ -12,11 +12,54 @@
         <div class="hidden md:flex md:items-center md:space-x-4">
           <ul class="flex space-x-4 text-base">
             <!-- Menu items on the right -->
-            <li><a href="#" class="hover:text-gray-300">How we work</a></li>
-            <li><a href="#" class="hover:text-gray-300">What we do</a></li>
-            <li><a href="#" class="hover:text-gray-300">Pricing</a></li>
-            <li><a href="#" class="hover:text-gray-300">Contact</a></li>
-            <li><a href="#" class="hover:text-gray-300">Careers</a></li>
+            <li>
+              <a
+                href="#how-we-work"
+                @click.prevent="handleClick('how-we-work')"
+                class="hover:text-gray-300"
+                >How we work</a
+              >
+            </li>
+            <li>
+              <a
+                href="#what-we-do"
+                @click.prevent="handleClick('what-we-do')"
+                class="hover:text-gray-300"
+                >What we do</a
+              >
+            </li>
+            <li>
+              <a
+                href="#pricing"
+                @click.prevent="handleClick('pricing')"
+                class="hover:text-gray-300"
+                >Pricing</a
+              >
+            </li>
+            <li>
+              <a
+                href="#contact"
+                @click.prevent="handleClick('contact')"
+                class="hover:text-gray-300"
+                >Contact</a
+              >
+            </li>
+            <li>
+              <a
+                href="#career"
+                @click.prevent="handleClick('career')"
+                class="hover:text-gray-300"
+                >Careers</a
+              >
+            </li>
+            <li>
+              <a
+                href="#team"
+                @click.prevent="handleClick('team')"
+                class="hover:text-gray-300"
+                >Team</a
+              >
+            </li>
           </ul>
         </div>
         <!-- Menu toggle button (for mobile) -->
@@ -39,11 +82,34 @@
       <ul
         class="text-gray-200 px-4 py-2 gap-y-5 flex justify-start items-start flex-col bg-[#000] bg-opacity-70"
       >
-        <li><a href="#" class="block">How we work</a></li>
-        <li><a href="#" class="block">What we do</a></li>
-        <li><a href="#" class="block">Pricing</a></li>
-        <li><a href="#" class="block">Contact</a></li>
-        <li><a href="#" class="block">Careers</a></li>
+        <li>
+          <a href="#how-we-work" @click.prevent="handleClick('how-we-work')" class="block"
+            >How we work</a
+          >
+        </li>
+        <li>
+          <a href="#what-we-do" @click.prevent="handleClick('what-we-do')" class="block"
+            >What we do</a
+          >
+        </li>
+        <li>
+          <a href="#pricing" @click.prevent="handleClick('pricing')" class="block"
+            >Pricing</a
+          >
+        </li>
+        <li>
+          <a href="#contact" @click.prevent="handleClick('contact')" class="block"
+            >Contact</a
+          >
+        </li>
+        <li>
+          <a href="#career" @click.prevent="handleClick('career')" class="block"
+            >Careers</a
+          >
+        </li>
+        <li>
+          <a href="#team" @click.prevent="handleClick('team')" class="block">Team</a>
+        </li>
       </ul>
     </div>
   </div>
@@ -55,6 +121,12 @@ export default {
     return {
       menuOpen: false,
     };
+  },
+  methods: {
+    /* emit handleClick */
+    handleClick(sectionId) {
+      this.$emit("scrollToSection", sectionId);
+    },
   },
 };
 </script>
