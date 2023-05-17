@@ -12,6 +12,9 @@
       <HowWeDo />
       <Pricing />
     </div>
+    <Team />
+    <About />
+    <EndFooter />
   </div>
 </template>
 <script>
