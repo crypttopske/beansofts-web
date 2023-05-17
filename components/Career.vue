@@ -3,7 +3,7 @@
     <div class="max-w-6xl mx-auto">
       <div class="flex justify-center items-center font-bold pt-2 pb-2">
         <h3 class="text-md text-gray-500 font-light pb-1 border-b border-gray-200">
-          Our Career
+           Career
         </h3>
       </div>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
