@@ -11,7 +11,9 @@
           <li>{{ plan.sla }}</li>
           <li>{{ plan.communication }}</li>
         </ul>
-        <button class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded">
+        <button
+          class="bg-gradient-to-tr from-[#0C0091] to-[#00A87E] text-white font-semibold py-2 px-4 rounded"
+        >
           Choose Plan
         </button>
       </div>
