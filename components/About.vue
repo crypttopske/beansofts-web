@@ -7,7 +7,7 @@
     </div>
     <div class="bg-white py-8">
       <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-        <p class="text-gray-600">
+        <p class="text-gray-600 p-3">
           Welcome to Beannsoft Software Company! We are a leading provider of innovative
           software solutions for various industries. With our expertise in software
           development and a passion for delivering high-quality products, we strive to

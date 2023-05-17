@@ -7,7 +7,7 @@
           Our Team
         </h3>
       </div>
-      <p class="text-gray-600">
+      <p class="text-gray-600 p-3">
         We are a team of passionate and creative individuals who love to build amazing
         software.
       </p>

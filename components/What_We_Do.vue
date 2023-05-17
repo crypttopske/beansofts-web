@@ -17,11 +17,14 @@
         <img
           :src="card.image"
           alt="Card Image"
-          class="md:w-48 w-3/4 h-48 object-cover mb-4"
+          class="md:w-20 w-16 rounded-full h-auto object-cover mb-4"
         />
         <div class="text-lg font-semibold mb-2">{{ card.title }}</div>
-        <p class="text-gray-500 mb-4">{{ card.description }}</p>
-        <a href="#" class="text-blue-500 hover:underline">Learn More</a>
+        <p class="text-gray-500 mb-4">{{ card.description.slice(0, 30) + ".." }}</p>
+        <button class="text-blue-500 hover:underline" @click="isOpen = true">
+          Learn More
+        </button>
+        <Modal isOpen="isOpen" v-if="isOpen" @close="close" :card="card.description" />
       </div>
     </div>
   </div>
@@ -31,6 +34,7 @@
 export default {
   data() {
     return {
+      isOpen: false,
       cards: [
         {
           title: "Software Development",
@@ -76,6 +80,11 @@ export default {
         },
       ],
     };
+  },
+  methods: {
+    close() {
+      this.isOpen = false;
+    },
   },
 };
 </script>
