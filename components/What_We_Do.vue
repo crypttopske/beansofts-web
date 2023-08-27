@@ -41,7 +41,7 @@ export default {
           description:
             "Building robust and scalable software solutions to meet your business needs.",
           image:
-            "https://res.cloudinary.com/dzvtkbjhc/image/upload/v1684260863/software-development_laznst.png",
+            "https://cdn.pixabay.com/photo/2020/09/17/18/05/people-5579977_640.png",
         },
         {
           title: "Web Application Development",
