@@ -33,7 +33,7 @@
                 href="#how-we-work"
                 @click.prevent="
                   handleClick('how-we-work');
-                  menuOpen = false;
+                  
                 "
                 class="hover:text-gray-300"
                 >How we work</a
@@ -44,7 +44,7 @@
                 href="#what-we-do"
                 @click.prevent="
                   handleClick('what-we-do');
-                  menuOpen = false;
+                  
                 "
                 class="hover:text-gray-300"
                 >What we do</a
@@ -55,7 +55,7 @@
                 href="#pricing"
                 @click.prevent="
                   handleClick('pricing');
-                  menuOpen = false;
+                 
                 "
                 class="hover:text-gray-300"
                 >Pricing</a
@@ -66,7 +66,7 @@
                 href="#contact"
                 @click.prevent="
                   handleClick('contact');
-                  menuOpen = false;
+                 
                 "
                 class="hover:text-gray-300"
                 >Contact</a
@@ -77,7 +77,7 @@
                 href="#career"
                 @click.prevent="
                   handleClick('career');
-                  menuOpen = false;
+                
                 "
                 class="hover:text-gray-300"
                 >Careers</a
@@ -88,7 +88,7 @@
                 href="#team"
                 @click.prevent="
                   handleClick('team');
-                  menuOpen = false;
+                  
                 "
                 class="hover:text-gray-300"
                 >Team</a
@@ -123,7 +123,7 @@
             href="#how-we-work"
             @click.prevent="
               handleClick('how-we-work');
-              menuOpen = false;
+             
             "
             class="block"
             >How we work</a
@@ -134,7 +134,7 @@
             href="#what-we-do"
             @click.prevent="
               handleClick('what-we-do');
-              menuOpen = false;
+            
             "
             class="block"
             >What we do</a
@@ -145,7 +145,7 @@
             href="#pricing"
             @click.prevent="
               handleClick('pricing');
-              menuOpen = false;
+              
             "
             class="block"
             >Pricing</a
@@ -156,7 +156,7 @@
             href="#contact"
             @click.prevent="
               handleClick('contact');
-              menuOpen = false;
+              
             "
             class="block"
             >Contact</a
@@ -167,7 +167,7 @@
             href="#career"
             @click.prevent="
               handleClick('career');
-              menuOpen = false;
+              
             "
             class="block"
             >Careers</a
@@ -178,7 +178,7 @@
             href="#team"
             @click.prevent="
               handleClick('team');
-              menuOpen = false;
+              
             "
             class="block"
             >Team</a
