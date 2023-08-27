@@ -48,35 +48,35 @@ export default {
           description:
             "Creating modern and responsive web applications for seamless user experiences.",
           image:
-            "https://res.cloudinary.com/dzvtkbjhc/image/upload/v1684260827/web-application_mtiysi.png",
+            "https://cdn.pixabay.com/photo/2020/09/17/18/05/people-5579977_640.png",
         },
         {
           title: "Blockchain Development",
           description:
             "Exploring the potential of blockchain technology and developing decentralized applications.",
           image:
-            "https://res.cloudinary.com/dzvtkbjhc/image/upload/v1684260801/blockchain-development_fcrrnt.png",
+            "https://cdn.pixabay.com/photo/2020/09/17/18/05/people-5579977_640.png",
         },
         {
           title: "Trading Bots",
           description:
             "Developing automated trading bots to optimize trading strategies and maximize returns.",
           image:
-            "https://res.cloudinary.com/dzvtkbjhc/image/upload/v1684260775/trading-bots_rssjzx.png",
+            "https://cdn.pixabay.com/photo/2020/09/17/18/05/people-5579977_640.png",
         },
         {
           title: "Finance Software Tools Development",
           description:
             "Designing and building software tools for financial analysis, planning, and management.",
           image:
-            "https://res.cloudinary.com/dzvtkbjhc/image/upload/v1684260747/finance-software_xah6gd.png",
+            "https://cdn.pixabay.com/photo/2020/09/17/18/05/people-5579977_640.png",
         },
         {
           title: "Custom Software Solutions",
           description:
             "Tailoring software solutions specifically to your unique business requirements and workflows.",
           image:
-            "https://res.cloudinary.com/dzvtkbjhc/image/upload/v1684260696/custom-software_neflvr.png",
+            "https://cdn.pixabay.com/photo/2020/09/17/18/05/people-5579977_640.png",
         },
       ],
     };
